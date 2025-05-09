@@ -5,14 +5,8 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "expo-module build",
-    "clean": "expo-module clean",
-    "lint": "expo-module lint",
-    "test": "expo-module test",
-    "prepare": "expo-module prepare",
-    "prepublishOnly": "expo-module prepublishOnly",
-    "expo-module": "expo-module",
-    "open:android": "open -a \"Android Studio\" example/android"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [
     "react-native",
