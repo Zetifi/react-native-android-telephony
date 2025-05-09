@@ -25,17 +25,5 @@
     "url": "https://github.com/Zetifi/react-native-android-telephony/issues"
   },
   "license": "MIT",
-  "homepage": "https://github.com/Zetifi/react-native-android-telephony#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "@types/react": "~18.3.12",
-    "expo-module-scripts": "^4.0.4",
-    "expo": "~52.0.0",
-    "react-native": "0.76.0"
-  },
-  "peerDependencies": {
-    "expo": "*",
-    "react": "*",
-    "react-native": "*"
-  }
+  "homepage": "https://github.com/Zetifi/react-native-android-telephony#readme"
 }
