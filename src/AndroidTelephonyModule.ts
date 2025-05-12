@@ -1,5 +1,5 @@
-import { requireNativeModule } from "expo";
-declare class AndroidTelephonyModule {
+import { NativeModule, requireNativeModule } from "expo";
+declare class AndroidTelephonyModule extends NativeModule {
   getAllCellInfo(): string;
   execute(action: string): string;
 }
